@@ -74,25 +74,25 @@ Players are assigned a random goal at the beginning of the game:
     Class and Method Descriptions
 
 ### Classes
-1. **Block.java**
+1. **Block.java**:
     Represents a block on the game board.
     Implements methods for rotating, reflecting, and smashing blocks.
     Contains helper methods for drawing the blocks and retrieving selected blocks.
-2. **BlockGame.java**
+2. **BlockGame.java**:
     Implements the GUI using Java Swing.
     Handles user interactions and game logic.
 3. **Goal.java (Abstract Class)**
     Defines the structure for different goals.
     Subclasses include BlobGoal and PerimeterGoal.
-4. **BlobGoal.java**
+4. **BlobGoal.java**:
     Implements scoring logic for the Blob Goal.
     Uses a breadth-first search approach to calculate the size of the largest blob.
-5. **PerimeterGoal.java**
+5. **PerimeterGoal.java**:
     Implements scoring logic for the Perimeter Goal.
     Counts the number of blocks of the target color on the outer perimeter, with double points for corners.
-6. **GameColors.java**
+6. **GameColors.java**:
     Manages the colors used in the game.
-7. **BlockToDraw.java**
+7. **BlockToDraw.java**:
     Represents a block to be drawn on the GUI, including its color and position.
 
 ### Future Enhancements
