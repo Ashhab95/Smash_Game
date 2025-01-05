@@ -13,6 +13,8 @@ The game board resembles a Mondrian painting and is randomly generated using col
 - Develop a graphical application using Java Swing.
 - Implement scoring logic based on different goals.
 
+!(Sample%20Run/Screenshot%202025-01-04%201.png)
+
 ## Features
 
 ### 1. Game Board Manipulation
