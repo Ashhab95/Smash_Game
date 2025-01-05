@@ -63,17 +63,17 @@ Players are assigned a random goal at the beginning of the game:
     The game begins with a randomly generated board of colored blocks.
     Players are assigned a goal (either Blob Goal or Perimeter Goal).
 2. Actions
-    Rotate: Rotate a selected block clockwise or counterclockwise.
-    Reflect: Reflect a block horizontally or vertically.
-    Smash: Subdivide a block into four smaller blocks.
-    Undo: Revert the last action performed.
+    - Rotate: Rotate a selected block clockwise or counterclockwise.
+    - Reflect: Reflect a block horizontally or vertically.
+    - Smash: Subdivide a block into four smaller blocks.
+    - Undo: Revert the last action performed.
 3. Scoring
-    The score is calculated based on the assigned goal:
-    Blob Goal: The score is determined by the size of the largest connected blob of the target color.
-    Perimeter Goal: The score is determined by the number of blocks of the target color on the board’s perimeter.
-    Class and Method Descriptions
+    - The score is calculated based on the assigned goal:
+    - Blob Goal: The score is determined by the size of the largest connected blob of the target color.
+    - Perimeter Goal: The score is determined by the number of blocks of the target color on the board’s perimeter.
+    
 
-### Classes
+### Class and Method Descriptions
 1. **Block.java**:
     Represents a block on the game board.
     Implements methods for rotating, reflecting, and smashing blocks.
@@ -96,7 +96,6 @@ Players are assigned a random goal at the beginning of the game:
     Represents a block to be drawn on the GUI, including its color and position.
 
 ### Future Enhancements
-
   - Add AI opponents to play against.
   - Introduce more complex goals for increased gameplay variety.
   - Add animations for block actions (e.g., rotate, reflect, smash).
