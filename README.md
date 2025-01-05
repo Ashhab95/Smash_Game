@@ -39,7 +39,6 @@ Players are assigned a random goal at the beginning of the game:
 
 - **Programming Language**: Java
 - **GUI Framework**: Java Swing
-- **IDE**: IntelliJ IDEA (or any Java-supported IDE)
 
 ## How to Run the Application
 
@@ -54,9 +53,9 @@ Players are assigned a random goal at the beginning of the game:
 2. **Open the Project in IntelliJ IDEA**
     Open the project folder and set the JDK as your project SDK.
     Ensure that the package structure is correctly maintained.
-3. Build and Run
-4. Build the project by selecting Build > Build Project.
-5. Run the BlockGame.java file to launch the game.
+3. **Build and Run** 
+   Build the project by selecting Build > Build Project.
+   Run the BlockGame.java file to launch the game.
 
 ### Gameplay Instructions
 
@@ -74,6 +73,7 @@ Players are assigned a random goal at the beginning of the game:
     Perimeter Goal: The score is determined by the number of blocks of the target color on the board’s perimeter.
     Class and Method Descriptions
 
+### Classes
 1. Block.java
     Represents a block on the game board.
     Implements methods for rotating, reflecting, and smashing blocks.
