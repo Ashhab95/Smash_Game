@@ -68,7 +68,7 @@ Players are assigned a random goal at the beginning of the game:
     - Smash: Subdivide a block into four smaller blocks.
     - Undo: Revert the last action performed.
 3. Scoring
-    - The score is calculated based on the assigned goal:
+   The score is calculated based on the assigned goal:
     - Blob Goal: The score is determined by the size of the largest connected blob of the target color.
     - Perimeter Goal: The score is determined by the number of blocks of the target color on the board’s perimeter.
     
